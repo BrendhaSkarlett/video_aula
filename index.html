@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Tenis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css"> <!-- Se você tiver um CSS customizado -->
+    <style>
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .card {
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Tenis Shopp</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <img src="" class="img-fluid" alt="Anúncio Skarlett's">
+        <div class="title-site text-center">
+            <h1>Skarlett's</h1>
+            <p>Os melhores Tenis para voce!!</p>
+        </div>
+    </header>    
+    
+    <div class="container mt-5">
+       
+    <h3></h3>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/t1.avif" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="font-weight-bold">R$ 150,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bac">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/t2.avif" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="font-weight-bold">R$ 200,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cb">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/t3.avif" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="font-weight-bold">R$ 260,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ba">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/t4.avif" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="font-weight-bold">R$ 300,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#s">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/t5.avif" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="font-weight-bold">R$ 153,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bbr">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/t6.avif" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="font-weight-bold">R$ 300,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bbr">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+       
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="modal fade" id="bac" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="modal fade" id="cb" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                   
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="ba" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="s" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="bbr" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="br" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Big Rock</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="bb" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+    </div>
+</div>
+</div>
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Loja de Tenis Virtual. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
